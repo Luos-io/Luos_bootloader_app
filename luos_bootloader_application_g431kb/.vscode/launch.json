@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "C:/Users/nicol/Workspace/01_projects/02_LuosBootloader_App/luos_bootloader_application_g431kb/.pio/build/NUCLEO-G431KB/firmware.elf",
+            "projectEnvName": "NUCLEO-G431KB",
+            "toolchainBinDir": "C:/Users/nicol/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/nicol/.platformio/platforms/ststm32/misc/svd/STM32G431xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "C:/Users/nicol/Workspace/01_projects/02_LuosBootloader_App/luos_bootloader_application_g431kb/.pio/build/NUCLEO-G431KB/firmware.elf",
+            "projectEnvName": "NUCLEO-G431KB",
+            "toolchainBinDir": "C:/Users/nicol/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/nicol/.platformio/platforms/ststm32/misc/svd/STM32G431xx.svd"
+        }
+    ]
+}
