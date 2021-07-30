@@ -9,7 +9,7 @@
 		1, 0, 0 \
 	}
 
-container_t *blinker_app;
+service_t *blinker_app;
 
 typedef enum
 {
@@ -22,15 +22,15 @@ int8_t id_led;
 unsigned long my_time;		//Used to keep track of time
 uint8_t led_last_state = 0; //Is the LED on or off?
 
-static void Blinker_MsgHandler(container_t *container, msg_t *msg);
+static void Blinker_MsgHandler(service_t *service, msg_t *msg);
 
 void Blinker_Init(void)
 {
 	revision_t revision = {.unmap = REV};
-	blinker_app = Luos_CreateContainer(Blinker_MsgHandler, BLINKER_APP, "blinker_old", revision);
+	blinker_app = Luos_CreateService(Blinker_MsgHandler, BLINKER_APP, "blinker_old", revision);
 
-	//Detect all containers of your network and create a routing_table
-	RoutingTB_DetectContainers(blinker_app);
+	//Detect all service of your network and create a routing_table
+	RoutingTB_DetectServices(blinker_app);
 
 	//Set our next timeout to now plus BLINKTIME milliseconds
 	my_time = HAL_GetTick() + blinktime;
@@ -63,6 +63,6 @@ void Blinker_Loop(void)
 	}
 }
 
-static void Blinker_MsgHandler(container_t *container, msg_t *msg)
+static void Blinker_MsgHandler(service_t *service, msg_t *msg)
 {
 }
