@@ -2524,7 +2524,7 @@ Discarded input sections
                 0x00000000       0x20 .pio\build\l0\lib358\libLuos.a(luos.o)
  .text.Luos_Run
                 0x00000000       0x68 .pio\build\l0\lib358\libLuos.a(luos.o)
- .bss.node_state.10512
+ .bss.node_state.10516
                 0x00000000        0x1 .pio\build\l0\lib358\libLuos.a(luos.o)
  .bss.package_number
                 0x00000000        0x2 .pio\build\l0\lib358\libLuos.a(luos.o)
@@ -2609,11 +2609,6 @@ Discarded input sections
  .text          0x00000000        0x0 .pio\build\l0\lib358\libLuos.a(bootloader_core.o)
  .data          0x00000000        0x0 .pio\build\l0\lib358\libLuos.a(bootloader_core.o)
  .bss           0x00000000        0x0 .pio\build\l0\lib358\libLuos.a(bootloader_core.o)
- .text.LuosBootloader_Init
-                0x00000000       0x24 .pio\build\l0\lib358\libLuos.a(bootloader_core.o)
- .rodata        0x00000000        0x3 .pio\build\l0\lib358\libLuos.a(bootloader_core.o)
- .rodata.LuosBootloader_Init.str1.1
-                0x00000000        0xd .pio\build\l0\lib358\libLuos.a(bootloader_core.o)
  .text          0x00000000        0x0 .pio\build\l0\lib358\libLuos.a(msg_alloc.o)
  .data          0x00000000        0x0 .pio\build\l0\lib358\libLuos.a(msg_alloc.o)
  .bss           0x00000000        0x0 .pio\build\l0\lib358\libLuos.a(msg_alloc.o)
@@ -3658,14 +3653,14 @@ LOAD c:/users/nicol/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc
                 0x20000434        0x2 .pio\build\l0\lib358\libLuos.a(luos.o)
                 0x20000434                container_number
  *fill*         0x20000436        0x2 
- .bss.data_size.10420
+ .bss.data_size.10424
                 0x20000438       0x14 .pio\build\l0\lib358\libLuos.a(luos.o)
- .bss.last_loop_date.10250
+ .bss.last_loop_date.10254
                 0x2000044c        0x4 .pio\build\l0\lib358\libLuos.a(luos.o)
- .bss.last_msg_size.10422
+ .bss.last_msg_size.10426
                 0x20000450        0x2 .pio\build\l0\lib358\libLuos.a(luos.o)
  *fill*         0x20000452        0x2 
- .bss.total_data_size.10421
+ .bss.total_data_size.10425
                 0x20000454       0x14 .pio\build\l0\lib358\libLuos.a(luos.o)
  .bss.last_container
                 0x20000468        0x2 .pio\build\l0\lib358\libLuos.a(routing_table.o)

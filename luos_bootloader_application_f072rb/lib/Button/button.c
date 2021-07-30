@@ -27,7 +27,7 @@ static void Button_MsgHandler(container_t *container, msg_t *msg);
 void Button_Init(void)
 {
     revision_t revision = {.unmap = REV};
-    Luos_CreateContainer(Button_MsgHandler, STATE_MOD, "button_new", revision);
+    Luos_CreateContainer(Button_MsgHandler, STATE_MOD, "button_old", revision);
 }
 /******************************************************************************
  * @brief loop must be call in project loop
