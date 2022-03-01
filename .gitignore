@@ -1,6 +1,2 @@
-luos_bootloader_application_f072RB/.pio
-luos_bootloader_application_f072RB/.vscode/
-luos_bootloader_application_f401RE/.pio
-luos_bootloader_application_f401RE/.vscode/
-luos_bootloader_application_l432kc/.pio
-luos_bootloader_application_l432kc/.vscode/
+.vscode/
+.pio/
